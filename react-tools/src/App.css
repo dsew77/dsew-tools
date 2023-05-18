@@ -7,6 +7,22 @@
   pointer-events: none;
 }
 
+.Top-Bar{
+  display:flex;
+  list-style: none;
+  padding: 0;
+  margin-left:20px;
+  border: 2px solid blue;
+}
+
+.Top-Bar li{
+  margin-right: 10px;
+}
+
+#Home_Btn{
+  color: red;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

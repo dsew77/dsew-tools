@@ -12,9 +12,9 @@ function App() {
       <Router>
           <div>
               <nav>
-                  <ul className="Top Bar">
+                  <ul className="Top-Bar">
                       <li>
-                         <Link to="/">Home</Link>
+                         <Link to="/" id ="Home_Btn">Home</Link>
                       </li>
                       <li>
                         <Link to ="/Pomodoro">Pomodoro</Link>
